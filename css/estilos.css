@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+.navbar{
+    background-color: blue;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: xx-large;
+    text-shadow: 0 0 20px 20px black;
+}
+
+.navbar-brand img{
+    height: 100px;
+}
+
+.nav-link{
+    color: white;
+    text-shadow: 0 0 5px 5px white;
+}
+
+.nav-link:hover{
+    color: white!important;
+
+}
+
+
+.jumbotron {
+    height: 625px;
+    width: 100%;
+    background-image: url(../images/2480X1000_molfetta_Inicio.webp);
+    background-size: cover;
+    background-position: center;
+       
+}
+
+
+.call{
+    color: white;
+    width: 80%;
+    border: 3px solid blue;
+    margin: 15px;
+    float: right !important;
+    padding: 15px;
+
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+.call p{
+    font-size: small;;
+}
+
+.call p::first-letter{
+    font-size: large;
+}
+
+.call span {
+    font-style: oblique;
+}
+
+.call a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.call a:hover{
+    box-shadow: 0 0 5px 5px white    
+}
+
+
+.historia{
+    color: white;
+    width: 45%;
+    border: 3px solid blue;
+    margin: 10px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+    margin-bottom: 100px !important;
+}
+.historia p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: small;
+
+}
+
+.historia p::first-letter{
+    font-size: large;
+}
+
+.historia p span {
+    font-style: oblique;
+}
+
+.historia a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+
+.historia a:hover{
+    box-shadow: 0 0 5px 5px white 
+}
+
+.nright{
+    margin: 10px;
+    padding: 15px;
+    background-image: url(../images/molfetta-ciudad-historica.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.nright:hover{
+    box-shadow: 0 0 5px 5px white;
+    transform: scale(1.10); 
+}
+
+
+.nright1{
+    margin: 10px;
+    padding: 15px;
+    background-image: url(../images/molfetta-porto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.nright1:hover{
+
+    box-shadow: 0 0 5px 5px white;
+    transform: scale(1.10); 
+}
+
+.ubicacion{
+    color: white;
+    width: 40%;
+    border: 3px solid blue;
+    margin: 10px;
+    float: left;
+    padding: 20px;
+    background-color: rgb(0,0,0,0.4);
+    background-size: cover;
+    border-radius: 15px;
+   
+}
+
+.ubicacion p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.ubicacion p::first-letter{
+    font-size: large;
+}
+
+.ubicacion a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+
+.ubicacion a:hover{
+    box-shadow: 0 0 5px 5px white    
+}
+
+.europa {
+    color: white;
+    width: 40%; 
+    border: 3px solid blue;
+    margin: 3px;
+    float: left;
+    padding: 3px;
+    background-color: rgb(6, 6, 143,0,0,7);
+    border-radius: 10px;
+}
+
+.europa:hover{
+    box-shadow: 0 0 5px 5px white;
+    transform: scale(1.10);   
+}
+
+.italia {
+    color: white;
+    width: 33%; 
+    border: 3px solid blue;
+    margin: 3px;
+    float: right;
+    padding: 3px;
+    background-color: rgb(6, 6, 143,0,0,7);
+    border-radius: 10px;
+
+}
+
+.italia:hover{
+    box-shadow: 0 0 5px 5px white;
+    transform: scale(1.10);   
+}
+
+.ubicacion iframe{
+    color: white;
+    width: 100%;
+    border: 3px solid blue;
+    margin: 3px;
+    float: center;
+    padding: 3px;
+    background-color: rgb(6, 6, 143,0,0,7);
+    border-radius: 15px;
+}
+
+.ubicacion iframe:hover{
+    box-shadow: 0 0 10px 10px white
+}
+
+.uright{
+    margin: 10px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: auto; 
+    /* height: 520px;  */
+
+}
+
+.uright:hover{
+    box-shadow: 0 0 5px 5px white;
+    transform: scale(1.01);
+}
+
+
+.turismo{
+    color: white;
+    width: 40%;
+    border: 3px solid blue;
+    margin: 10px;
+    float: left;
+    padding: 20px;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+.turismo p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: small;
+    
+}
+.turismo a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+
+.turismo a:hover{
+    box-shadow: 0 0 5px 5px white    
+}
+
+.tright{
+    margin: 10px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 520px; 
+}
+
+.tright:hover{
+    box-shadow: 0 0 5px 5px white;
+}
+
+.informacion{
+    color: white;
+    width: 90%;
+    border: 3px solid blue;
+    /* margin: 30px; */
+    margin: 10px;
+    float: left;
+    /* padding: 20px; */
+    padding: 20px;
+    /* background-color: rgb(6, 6, 143,0,0,7); */
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 15px;
+}
+
+.informacion form:hover{
+    padding: 10px;
+    box-shadow: 0 0 3px 3px white;
+}
+
+.informacion p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: small;
+    
+}
+
+.form-control:focus{
+    box-shadow: 0 0 5px 5px rgb(104, 215, 249); 
+}
+
+.consulta{
+    width: 1000px !important;
+}
+
+.form-control{
+    padding: 5px !important;
+}
+
+.boton{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    box-shadow: 0 0 5px 5px white
+}
+
+footer{
+    background-color:#000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.redes a{
+    text-decoration: none;
+} 
+
+.redes a i{
+    color: blue;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+.redes a i:hover{
+    color: rgb(130, 238, 236);
+}
+
+.subir{
+    height: 25px;
+    width: 25px;
+    color: #f5f0f0;
+    background-color: rgb(4, 6, 130,0,0.8);
+    position: fixed;
+    right: 10px;
+    bottom: 10px; 
+    font: size 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px white;
+}
