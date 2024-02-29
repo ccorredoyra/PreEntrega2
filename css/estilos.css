@@ -32,6 +32,9 @@
     background-position: center;
 }
 
+h4{
+    font-size: medium;
+}
 
 .call{
     color: white;
@@ -45,11 +48,12 @@
 }
 
 .call p{
-    font-size: small;;
+    font-size: x-small;;
 }
 
 .call p::first-letter{
-    font-size: large;
+    /* font-size: large; */
+    font-size: small;
 }
 
 .call span {
@@ -63,12 +67,12 @@
     padding: 10px 20px;
     text-transform: capitalize;
     border-radius: 10px;
+    font-size: small;
 }
 
 .call a:hover{
     box-shadow: 0 0 5px 5px white    
 }
-
 
 .historia{
     color: white;
@@ -79,16 +83,17 @@
     padding: 15px;
     background-color: rgb(0,0,0,0.4);
     border-radius: 15px;
-    margin-bottom: 100px !important;
+    margin-bottom: 100px !important; 
 }
+
 .historia p{
     color: white;
     margin-bottom: 20px;
-    font-size: small;
+    font-size: x-small;
 }
 
 .historia p::first-letter{
-    font-size: large;
+    font-size: small;
 }
 
 .historia p span {
@@ -99,14 +104,16 @@
     background-color: blue;
     color: white;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-transform: capitalize;
-    border-radius: 15px;
+    border-radius: 10px;
+    font-size: small;
 }
 
 .historia a:hover{
     box-shadow: 0 0 5px 5px white 
 }
+
 
 .nright{
     margin: 10px;
@@ -114,7 +121,7 @@
     background-image: url(../images/molfetta-ciudad-historica.JPG);
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 200px;
 }
 
 .nright:hover{
@@ -129,7 +136,7 @@
     background-image: url(../images/molfetta-porto.jpg);
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 200px;
 }
 
 .nright1:hover{
@@ -139,34 +146,46 @@
 }
 
 .ubicacion{
+
     color: white;
-    width: 40%;
+    width: 45%;
     border: 3px solid blue;
     margin: 10px;
     float: left;
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(0,0,0,0.4);
-    background-size: cover;
     border-radius: 15px;
+    margin-bottom: 100px !important; 
+ 
 }
 
 .ubicacion p{
     color: white;
     margin-bottom: 20px;
-    font-size: small;
+    font-size: x-small;
 }
 
 .ubicacion p::first-letter{
-    font-size: large;
+    font-size: small;
 }
 
 .ubicacion a{
+
     background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: small;
+
+    /* background-color: blue;
     color: white;
     text-decoration: none;
     padding: 10px 30px;
     text-transform: capitalize;
     border-radius: 15px;
+    font-size: small; */
 }
 
 .ubicacion a:hover{
@@ -235,29 +254,35 @@
 }
 
 .turismo{
+
     color: white;
-    width: 40%;
+    width: 45%;
     border: 3px solid blue;
     margin: 10px;
     float: left;
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(0,0,0,0.4);
     border-radius: 15px;
+    margin-bottom: 120px !important; 
+
 }
 
 .turismo p{
     color: white;
     margin-bottom: 20px;
-    font-size: small;
+    font-size: x-small;
 }
 
 .turismo a{
+
     background-color: blue;
     color: white;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-transform: capitalize;
-    border-radius: 15px;
+    border-radius: 10px;
+    font-size: small;    
+
 }
 
 .turismo a:hover{
@@ -269,7 +294,7 @@
     padding: 10px;
     background-size: cover;
     background-position: center;
-    height: 520px; 
+    height: auto; 
 }
 
 .tright:hover{
@@ -282,21 +307,26 @@
     border: 3px solid blue;
     margin: 10px;
     float: left;
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(0,0,0,0.4);
     border-radius: 15px;
+    font-size: x-small;
+
 }
 
-.informacion form:hover{
-    padding: 10px;
+/* .informacion form:hover{
     box-shadow: 0 0 3px 3px white;
-}
+} */
 
 .informacion p{
     color: white;
     margin-bottom: 20px;
-    font-size: small;
+    /* font-size: x-small; */
     
+}
+
+.form-control {
+    font-size: x-small;
 }
 
 .form-control:focus{
@@ -304,7 +334,7 @@
 }
 
 .consulta{
-    width: 1000px !important;
+    width: auto !important;
 }
 
 .form-control{
@@ -315,13 +345,15 @@
     background-color: blue;
     color: white;
     text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 10px;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: small;
 }
 
 .boton:hover{
     box-shadow: 0 0 5px 5px white
-}
+} 
 
 footer{
     background-color:#000;
@@ -331,8 +363,8 @@ footer{
 }
 
 footer p{
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
     padding: 10px;
 }
 
@@ -342,8 +374,8 @@ footer p{
 
 .redes a i{
     color: blue;
-    font-size: 50px;
-    letter-spacing: 30px;
+    font-size: 30px;
+    letter-spacing: 20px;
 }
 
 .redes a i:hover{
